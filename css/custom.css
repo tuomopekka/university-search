@@ -1,0 +1,74 @@
+/*
+ * CUSTOM.CSS
+ * FOR VIRKKALADEVOCHT.FI
+ * BY TUOMOPEKKA.GITHUB.IO
+ */
+ 
+/* TYPOGRAPHY */
+
+ body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.p, 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  color: #000000;
+  text-transform: none;
+  background-color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* LINKS */
+
+a {
+  color: #000000;
+  border-bottom: solid 3px #111111;
+}
+
+a:hover, 
+a:focus {
+  color: #000000;
+  text-decoration: none;
+  outline: none;
+  outline-offset: none;
+}
+
+/* LOGO */
+
+.logo, 
+logo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* CONTACT */
+
+.contact, 
+contact {
+  font-size: 23px; 
+}
