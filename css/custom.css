@@ -6,30 +6,9 @@
  
 /* TYPOGRAPHY */
 
- body {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 1px;
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.p, 
 .h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-p, 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1
+ {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
   font-weight: 400;
@@ -40,35 +19,29 @@ h6 {
   background-color: #ffffff;
   margin-top: 0px;
   margin-bottom: 25px;
-  text-align: center;
 }
 
-/* LINKS */
+/* SEARCH */
 
-a {
-  color: #000000;
-  border-bottom: solid 3px #111111;
+.gsc-control-cse .gsc-table-result {
+  font-family : inherit;
 }
 
-a:hover, 
-a:focus {
-  color: #000000;
-  text-decoration: none;
-  outline: none;
-  outline-offset: none;
+.gsc-control-cse .gsc-input-box {
+  height : inherit;
 }
 
-/* LOGO */
-
-.logo, 
-logo {
-  margin-top: 50px;
-  margin-bottom: 50px;
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button, input.gsc-search-button-v2 {
+  box-sizing  : content-box;
+  line-height : normal;
+  margin-top  : 0px;
 }
 
-/* CONTACT */
-
-.contact, 
-contact {
-  font-size: 23px; 
+.gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top {
+    padding-left: 0px;
+    padding-right: 0px;
 }
